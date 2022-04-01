@@ -178,7 +178,7 @@ public class PolygonController {
     @GET
     @Produces(MediaType.APPLICATION_JSON)
     @Consumes(MediaType.APPLICATION_JSON)
-    @Path("/baterias")
+    @Path("baterias")
     public Response getVehiclesInYard() {
         return Response
                 .status(Response.Status.OK)

@@ -39,6 +39,7 @@ public class GetProgramation {
         return Response
                 .status(Response.Status.OK)
                 .entity(findProgramation(date, hour, vehicle))
+                .header("Access-Control-Allow-Origin", "*")
                 .build();
     }
 
