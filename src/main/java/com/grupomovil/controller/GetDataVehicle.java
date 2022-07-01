@@ -5,7 +5,7 @@ import com.grupomovil.entity.EBGm_Position_vehicle;
 import com.grupomovil.entity.EBGm_Position_yard;
 import com.grupomovil.entity.EBGm_Stopped_vehicle;
 import com.grupomovil.entity.EBGm_Vehicles_yard;
-import com.grupomovil.entity.EBPeriodic;
+import com.grupomovil.entity.geo.events.EBPeriodic;
 import com.grupomovil.persistence.AccesDaoMongo;
 import com.grupomovil.tools.MBTools;
 import java.util.ArrayList;
